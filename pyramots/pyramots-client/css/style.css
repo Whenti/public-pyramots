@@ -1,0 +1,142 @@
+body {
+    background-color: #ADE4F3;
+    overflow:hidden;
+}
+
+h1 {
+    color: #A1947A;
+    font-family: 'Lucida Grande';
+    text-align : center;
+    font-size : 12vw;
+}
+
+h2 {
+    color: #A1947A;
+    font-family: 'Lucida Grande';
+    text-align : center;
+    font-size : 6vw;
+}
+
+.table{
+    text-align : 'center';
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #A1947A;
+    color: white;
+    font-size: 7vw;
+    border-radius: 0px;
+    font-family: 'Lucida Grande';
+    border: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.panel p {
+    color: #6d84b4;
+    font-family: 'Tahoma';
+}
+
+#error-messages {
+    color: #f00;
+}
+
+#scene {
+    width: 100%;
+    height: 100%;
+    max-width: 750px;
+    overflow-x: auto;
+    text-align: center;
+    
+    position:absolute; z-index:-1;
+    content: url(../img/bloc.png) url(../img/dbloc.png) url(../img/letter.png) url(../img/dletter.png) url(../img/papyrus0.png) url(../img/papyrus1.png) url(../img/npapyrus0.png) url(../img/npapyrus1.png) url(../img/pyramid.png) url(../img/pyramidans.png) url(../img/rletter.png) url(../img/totaux.png);
+}
+par.gametriangle {
+    max-width: 750px;
+}
+par.letters{
+    width: 100%;
+    display:inline-block;
+    text-align : center;
+}
+
+
+par.gametriangle div{
+    text-align : center;
+}
+
+.cell{
+    width:10vw;
+    height:10vw;
+    margin: 0px;
+    padding: 0px;
+    display:inline-block;
+    font-size: 9vw;
+}
+
+.totalpoints{
+    width:16vw;
+    height:16vw;
+    font-size: 8vw;
+    font-family: 'Lucida Grande';
+}
+
+.scoregame{
+    width:14vw;
+    height:14vw;
+    font-size: 7vw;
+    font-family: 'Lucida Grande';
+    display:inline-block;
+    text-align:center;
+}
+
+.scorecell{
+    width:20vw;
+    height:10vw;
+    margin: 1vw;
+    padding: 0px;
+    display:inline-block;
+    font-size: 8vw;
+    vertical-align:bottom;
+    font-family: 'Lucida Grande';
+}
+.pyramid{
+    width:13vw;
+    height:13vw;
+    margin: 1vw;
+    padding: 0px;
+    display:inline-block;
+    font-size: 5vw;
+    font-family: 'Lucida Grande';
+}
+
+.letter{
+    width:17vw;
+    height:17vw;
+    margin: 0px;
+    padding: 0px;
+    display:inline-block;
+    font-size: 10vw;
+    font-family: 'Lucida Grande';
+}
+
+.joueurs{
+    display:inline-block;
+    align-self: center;
+    font-size: 12vw;
+    font-family: 'Lucida Grande';
+}
+
+.name{
+    font-size: 4vw;
+    font-family: 'Lucida Grande';
+}
+
+.timer{
+    background-color: blue;
+    display:inline-block;
+    height : 4vw;
+    margin: 1vw;
+}
